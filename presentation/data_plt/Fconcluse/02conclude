@@ -1,0 +1,62 @@
+<subsection Conclusion>
+<repeat w="['none']">
+<frame title="Conclusion" label="conclude_?i?">
+
+
+<split>
+<que wid="0.48">
+
+<list>
+
+<e>The Graph autoencoder works</e>
+<e>and even though it is not yet perfect</e>
+<e>there migth be applications where having an autoencoder for graphs is useful</e>
+<e>Especcially since they do not need many datapoints and seem to never overfit</e>
+
+</list>
+
+</que>
+<que wid="0.48">
+
+<list>
+<e>As anomaly detector it can be as good as any other code</e>
+<e>And using creative ideas, we could make it much better</e>
+
+</list>
+
+
+</que>
+</split>
+
+
+</frame>
+</repeat>
+
+
+
+
+<frame title="Grapa" label="grapa">
+
+
+<split>
+<que wid="0.46">
+
+<list>
+
+<e>See <link w="https://grapa.readthedocs.io/">grapa.readthedocs.io</link></e>
+<e>You can use my code for other things</e>
+<e>There are some example usecases in the documentation</e>
+
+</list>
+
+</que>
+<que wid="0.5">
+
+<i f="grapadoc" wid="0.95" wmode="False"></i>
+
+</que>
+</split>
+
+
+</frame>
+

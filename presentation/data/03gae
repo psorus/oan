@@ -1,0 +1,16 @@
+<section Graph Autoencoder>
+<frame>
+<split>
+<que>
+<i f="xdenseencode.png"/>
+</que>
+<que>
+<i f="xgraphencode.png"/>
+</que>
+</split>
+<block x="8.7" y="0.2">
+<i f="grapa.png" wmode="True" wid="0.6">
+</block>
+</frame>
+
+

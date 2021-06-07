@@ -1,0 +1,15 @@
+<subsection Potential of a working pt combination>
+<frame>
+<list>
+<e>Using the addition rules of aucs, you can estimate better networks</e>
+<e>possible aucs:</e>
+<l2st>
+<e>angular: #0.906#</e>
+<e>pt about #0.8# with a 6 node network</e>
+</l2st>
+<e>assuming no correlation between both and perfectly gaussian distributions you get</e>
+<e>an combined auc of #0.941#</e>
+<e>for comparison, QCDorWhat reaches about #0.9257#
+</list>
+
+</frame>

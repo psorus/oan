@@ -1,0 +1,117 @@
+<subsection Graphs>
+<frame>
+
+<split>
+<que>
+<list>
+<e>A graph is build from</e>
+<l2st>
+<e>nodes #x_i# (Dots representing objects)</e>
+<e>edges #A_ij# (Lines representing connections between those)</e>
+</l2st>
+</list>
+</que>
+<que>
+<i f="dia3">A some nodes and some edges</i>
+</que>
+</split>
+</frame>
+
+<frame>
+<list>
+<e>you can define functions (graph updates) on the nodes</e>
+<e>#Eq((x_i)**(t+1),s*(x_i)**(t)+n*(A_i)**(j)*(x_j)**(t))# (one attribute per node)</e>
+<e>here we used two parameters (two matrices for more attributes)</e>
+<l2st>
+<e>#n# describing the interaction of the nodes with their neighbours</e>
+<e>#s# describing the self interaction of each node</e>
+<e>these two parameters are learnable in the network</e>
+<e>Also the Adjacency Matrix #A_ij# encodes which nodes are connected and which are not</e>
+</l2st>
+<e>since the whole update step is local, the size of the graph does not matter: so with just two parameters you can describe arbitrary large graphs</e>
+</list>
+
+</frame>
+<frame>
+<split>
+<que>
+<i f="dia7" wmode=True>before graph update</i>
+</que>
+<que>
+<i f="dia8" wmode=True>after update</i>
+</que>
+</split>
+</frame>
+
+<frame title="Why Graph Networks?">
+<list>
+<e>Convolutional networks with learnable meaning of locality</e>
+<e>Train on more general data</e>
+<e>Implicit bias making for example each #phi# be treated the same</e>
+<e>The currently best Top Tagger is a Graph Network (ParticleNet,arXiv:1902.08570)</e>
+</list>
+
+</frame>
+
+
+
+
+<ignore>
+<frame>
+<i f="../../mmt/q/diagrama/basic.png">A Graph made from nodes and edges</i>
+</frame>
+<frame hidden=1>
+<i f="../../mmt/q/diagrama/g1.png">A Graph made from nodes and edges</i>
+</frame>
+<frame hidden=1>
+<i f="../../mmt/q/diagrama/g2.png">Node information can propagate through edges</i>
+</frame>
+<frame hidden=1>
+<i f="../../mmt/q/diagrama/g3.png">Node information can propagate through edges</i>
+</frame>
+<frame hidden=1>
+<i f="../../mmt/q/diagrama/final.png">Node information can propagate through edges</i>
+</frame>
+</ignore>
+
+
+
+
+
+<ignore>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+
+</que>
+</split>
+
+<frame>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+<i f="none"></i>
+</que>
+</split>
+
+</frame>
+
+
+</ignore>
+
+
+

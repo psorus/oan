@@ -1,0 +1,79 @@
+<subsection Neuronal Networks>
+<frame>
+<split>
+<que>
+<list>
+<e>Lets consider Information reduction</e>
+<e>assume something is represented by one x and by one y value</e>
+<e>so to describe one object, we require two variables</e>
+<e>now we want to reduce this to only one variable</e>
+</list>
+</que>
+<que>
+<i f="../../mmt/q/02/imgs/without_fit.pdf" wmode="True"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+<list>
+<e>you can do this by fitting a function</e>
+<e>you reduce two values #(x,y)# into one value #x# and some function #y(x)#</e>
+<e>less accurate, but more understanding</e>
+</list>
+</que>
+<que>
+<i f="../../mmt/q/02/imgs/linear.pdf" wmode="True"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+<list>
+<e>Now lets do the same with a neuronal Network</e>
+<e>Here we have one input and one output</e>
+<e>so its basically just a way of encoding a function</e>
+</list>
+</que>
+<que>
+<i f="../../mmt/q/nnpics/rsimple_neuronal_net.png"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+<list>
+<e>This more general function we can train</e>
+<e>and get a similar result, but with a more complex function</e>
+<e>here the complexity is given by the network architecture</e>
+</list>
+</que>
+<que>
+<i f="../../mmt/q/02/imgs/neuronal_network.pdf" wmode="True"></i>
+</que>
+</split>
+</frame>
+
+
+
+<ignore>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+
+</que>
+</split>
+
+</ignore>
+
+

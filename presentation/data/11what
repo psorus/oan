@@ -1,0 +1,21 @@
+<frame title="Orthogonal Anomaly Detection">
+
+<split>
+<que>
+<list>
+<e>Retraining an anomaly detection algorithm provides about the same result</e>
+<e>Can you change this?</e>
+<e>And so create an multi-dimensional output anomaly detection algorithm</e>
+<e>->yes</e>
+</list>
+</que>
+<que>
+<list>
+<e>Create a general Framework for orthogonal anomaly detection</e>
+<e>Can improve Generality, Interpretability and general Strength of anomaly detection</e>
+</list>
+</que>
+</split>
+</frame>
+
+

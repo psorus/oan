@@ -1,0 +1,26 @@
+<repeat w="['aucfeat677','aucfeat534']">
+<frame title="Better Normalization" label="normplus_?i?">
+
+
+<split>
+
+<que wid="0.3">
+<list>
+
+<e>Normalization is not so easy since they introduce artefacts</e>
+<e>By removing these artefacts you find an oddity</e>
+
+
+</list>
+</que>
+<que wid="0.68">
+
+<i f="???" wid="0.85" wmode="True"></i>
+
+</que>
+
+</split>
+
+
+</frame>
+</repeat>

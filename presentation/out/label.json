@@ -1,0 +1,324 @@
+[
+  {
+    "typ": "section",
+    "title": "Anomalies and Physics",
+    "label": "Anomalies and Physics",
+    "file": "../oan/presentation//data/01tt",
+    "issec": true
+  },
+  {
+    "typ": "section",
+    "title": "Jet Anomaly",
+    "label": "Jet Anomaly",
+    "file": "../oan/presentation//data/01tt",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/positron2.png"
+    ],
+    "label": "positron2png",
+    "caption": "",
+    "where": "../oan/presentation//data/01tt"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/positron3.png"
+    ],
+    "label": "positron3png",
+    "caption": "",
+    "where": "../oan/presentation//data/01tt"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/candersonp.jpg"
+    ],
+    "label": "candersonpjpg",
+    "caption": "",
+    "where": "../oan/presentation//data/01tt"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/bcuriep.png"
+    ],
+    "label": "bcurieppng",
+    "caption": "",
+    "where": "../oan/presentation//data/01tt"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/cchaop.jpg"
+    ],
+    "label": "cchaopjpg",
+    "caption": "",
+    "where": "../oan/presentation//data/01tt"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/skobelp.png"
+    ],
+    "label": "skobelppng",
+    "caption": "",
+    "where": "../oan/presentation//data/01tt"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/lhc_event2.jpg"
+    ],
+    "label": "lhc_event2jpg",
+    "caption": "",
+    "where": "../oan/presentation//data/01tt"
+  },
+  {
+    "typ": "img2",
+    "files": [
+      "../imgs/xoneqcd.png",
+      "../imgs/xonetop.png"
+    ],
+    "label": "xoneqcdpng",
+    "caption": "",
+    "where": "../oan/presentation//data/01tt"
+  },
+  {
+    "typ": "section",
+    "title": "Graph Autoencoder",
+    "label": "Graph Autoencoder",
+    "file": "../oan/presentation//data/02idea",
+    "issec": true
+  },
+  {
+    "typ": "section",
+    "title": "Graph Autoencoder",
+    "label": "Graph Autoencoder",
+    "file": "../oan/presentation//data/03gae",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/xdenseencode.png"
+    ],
+    "label": "xdenseencodepng",
+    "caption": "",
+    "where": "../oan/presentation//data/03gae"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/xgraphencode.png"
+    ],
+    "label": "xgraphencodepng",
+    "caption": "",
+    "where": "../oan/presentation//data/03gae"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/grapa.png"
+    ],
+    "label": "grapapng",
+    "caption": "",
+    "where": "../oan/presentation//data/03gae"
+  },
+  {
+    "typ": "section",
+    "title": "Graph Autoencoder",
+    "label": "Graph Autoencoder",
+    "file": "../oan/presentation//data/04a",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/netresa"
+    ],
+    "label": "netresa",
+    "caption": "",
+    "where": "../oan/presentation//data/04a"
+  },
+  {
+    "typ": "section",
+    "title": "Graph Autoencoder",
+    "label": "Graph Autoencoder",
+    "file": "../oan/presentation//data/04b",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/netresb"
+    ],
+    "label": "netresb",
+    "caption": "",
+    "where": "../oan/presentation//data/04b"
+  },
+  {
+    "typ": "section",
+    "title": "Graph Autoencoder",
+    "label": "Graph Autoencoder",
+    "file": "../oan/presentation//data/04c",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/netresc"
+    ],
+    "label": "netresc",
+    "caption": "",
+    "where": "../oan/presentation//data/04c"
+  },
+  {
+    "typ": "section",
+    "title": "Results",
+    "label": "Results",
+    "file": "../oan/presentation//data/05results",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/crossroc"
+    ],
+    "label": "crossroc",
+    "caption": "",
+    "where": "../oan/presentation//data/05results"
+  },
+  {
+    "typ": "subsection",
+    "title": "OneOff networks",
+    "label": "OneOff networks",
+    "file": "../oan/presentation//data/06oo",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/toosephist"
+    ],
+    "label": "toosephist",
+    "caption": "",
+    "where": "../oan/presentation//data/06oo"
+  },
+  {
+    "typ": "section",
+    "title": "Results",
+    "label": "Results",
+    "file": "../oan/presentation//data/07results",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/crosssep"
+    ],
+    "label": "crosssep",
+    "caption": "",
+    "where": "../oan/presentation//data/07results"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/kanomal.png"
+    ],
+    "label": "kanomalpng",
+    "caption": "",
+    "where": "../oan/presentation//data/08whyoo"
+  },
+  {
+    "typ": "section",
+    "title": "orthogonal anomaly detection",
+    "label": "orthogonal anomaly detection",
+    "file": "../oan/presentation//data/10newtitle",
+    "issec": true
+  },
+  {
+    "typ": "section",
+    "title": "Generality",
+    "label": "Generality",
+    "file": "../oan/presentation//data/13generality",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/1d3"
+    ],
+    "label": "1d3",
+    "caption": "",
+    "where": "../oan/presentation//data/13generality"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/3d3"
+    ],
+    "label": "3d3",
+    "caption": "",
+    "where": "../oan/presentation//data/13generality"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/1d4"
+    ],
+    "label": "1d4",
+    "caption": "",
+    "where": "../oan/presentation//data/13generality"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/3d4"
+    ],
+    "label": "3d4",
+    "caption": "",
+    "where": "../oan/presentation//data/13generality"
+  },
+  {
+    "typ": "section",
+    "title": "Interpretability",
+    "label": "Interpretability",
+    "file": "../oan/presentation//data/14interpretability",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/map"
+    ],
+    "label": "map",
+    "caption": "",
+    "where": "../oan/presentation//data/14interpretability"
+  },
+  {
+    "typ": "section",
+    "title": "Strength",
+    "label": "Strength",
+    "file": "../oan/presentation//data/15strength",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/dimensional"
+    ],
+    "label": "dimensional",
+    "caption": "",
+    "where": "../oan/presentation//data/15strength"
+  },
+  {
+    "typ": "section",
+    "title": "Whats next",
+    "label": "Whats next",
+    "file": "../oan/presentation//data/16next",
+    "issec": true
+  }
+]

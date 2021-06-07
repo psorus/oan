@@ -1,0 +1,21 @@
+<section Graph Autoencoder>
+<frame>
+<i f="netresa" wmode="True"/>
+<split>
+<que>
+<list>
+<e>Already fairly satisfied</e>
+<e>If I beat this, my graph networks work</e>
+</list>
+</que>
+<que>
+<list>
+<e>AUC score</e>
+<e>between 0 and 1, higher=better</e>
+<e>1:perfect,0.5:random</e>
+</list>
+</que>
+</split>
+</frame>
+
+

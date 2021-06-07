@@ -1,0 +1,273 @@
+<subsection Why is the trivial Model so good?>
+
+<frame>
+
+<split>
+<que>
+<list>
+<e>Now lets focus a bit more on the trivial model</e>
+<e>in it, I compare just the angular part to 0 (its mean)</e>
+<e>and as you see on the left side, the distribution for tops is way more complicated (logarithmic color coding!)</e>
+<e>so since comparing to zero=approximating this radius, tops are clearly classifiable using this</e>
+</list>
+</que>
+<que>
+<i f="rmeanangle3"></i>
+</que>
+</split>
+
+</frame>
+
+<frame>
+<split>
+<que>
+<list>
+<e>compare this to the distribution in #p_t#</e>
+<e>basically no preference</e>
+<e>even switches depending on the displayed particle</e>
+</list>
+</que>
+<que>
+<i f="meanpt1" f2="meanpt7"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+<list>
+<e>This related to another problem</e>
+<e>if you would train a working autoencoder no longer on qcd data, but on top, it would still consider tops more complicated</e>
+</list>
+</que>
+<que>
+<i f="recinv"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+<list>
+<e>This you can see best in aucmaps</e>
+<e>These show the auc as a function of the particle id and the current feature</e>
+<e>blue color = qcd data is simpler</e>
+<e>red color = top data is simpler</e>
+<e>white color = no preference</e>
+<e>a perfectly working network would be darkblue if trained on qcd and darkred if trained on top</e>
+</list>
+</que>
+<que>
+<i f="xqcdmap.png" f2="xtopmap.png"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+<list>
+<e>you can subtract those maps</e>
+<e>here more different=more red</e>
+<e>basically no difference in angular data</e>
+</list>
+</que>
+<que>
+<i f="deltamap" wmode=True></i>
+</que>
+</split>
+</frame>
+
+<frame>
+<split>
+<que>
+<list>
+<e>you have the same problem of adding d-distributions as you have in the scaling case</e>
+<e>so you could ask yourself if adding something to the angular data actually helps</e>
+<e>comparing the only angular data to the general data, you see that it in fact hurts the auc (even though just a bit)</e>
+<e>this effectively means, my current network does not use #p_t# at all</e>
+</list>
+</que>
+<que>
+<i f="angularscale"></i>
+</que>
+</split>
+</frame>
+
+<frame>
+<split>
+<que>
+<list>
+<e>But again, this does not mean, that there is no information in pt</e>
+<e>in fact, you see in these aucmaps, that the pt part is actually red where it should be red and blue where it should be blue</e>
+<e>so how about using only #p_t#</e>
+<e>you obviously lose quality</e>
+<e>also training an autoencoder to get an high auc in pt is not yet trivial</e>
+</list>
+</que>
+<que>
+<i f="xqcdmap.png" f2="xtopmap.png"></i>
+</que>
+</split>
+</frame>
+
+<frame>
+<split>
+<que>
+<list>
+<e>multiplicative scaling does not really work</e>
+<e>best network reaches an auc of about #0.78# which is about the same, as QCDorWhat gets for minimally mass decorrelated networks</e>
+</list>
+</que>
+<que>
+<i f="trivialptscale"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+Benefits
+<list>
+<e slight improvement in network quality>
+<e allows training to actually be inverted>
+</list>
+</que>
+<que>
+Problems
+<list>
+<e>you basically split your training into a network with a good auc, and one that learns (hopefully) non trivial stuff</e>
+<e less effective loss scaling>
+</list>
+</que>
+</split>
+So maybe you could do the same with some different preprocessing (one that does not just give you trivial information)
+</frame>
+<frame>
+
+<split>
+<que>
+<list>
+<e>Easiest Transformation: no Transformation (4 vectors)</e>
+<e>so</e>
+<l2st>
+<e>Energy</e>
+<e>#p_1#</e>
+<e>#p_2#</e>
+<e>#p_3#</e>
+</l2st>
+<e>trained on qcd, but prefers top!</e>
+</list>
+</que>
+<que>
+<i f="badmap"></i>
+</que>
+</split>
+
+</frame>
+<frame>
+
+<split>
+<que>
+<list>
+<e>Why is that so?</e>
+<e>maybe just a bad network</e>
+<e>compare metrics (defining distance in topK)</e>
+<e>basically require the network to learn the meaning of #phi# and #eta# itself</e>
+<e>so without, no concept of locality, meaning no useful graph</e>
+</list>
+</que>
+<que>
+<i f="badmetrik" f2="goodmetrik"></i>
+</que>
+</split>
+
+</frame>
+<frame title="How to solve this">
+
+<list>
+<e>add Dense Network infront of the TopK</e>
+<l2st>
+<e>better, but still not good</e>
+</l2st>
+<e>run TopK still on preprocessed Data</e>
+<l2st>
+<e>good, but numerical problems</e>
+<l3st>
+<e>require to go to 4 particles and less training data</e>
+</l3st>
+</l2st>
+</list>
+
+</frame>
+<frame>
+
+<split>
+<que>
+<list>
+<e>same good reconstruction in #p_1# and #p_2#</e>
+<e>makes sense, since #Eq(p_t**2,p_1**2+p_2**2)#</e>
+<e>but apparently Energy and #p_3# prefer tops</e>
+</list>
+</que>
+<que>
+<i f="goodmap"></i>
+</que>
+</split>
+
+</frame>
+
+
+
+
+
+
+
+
+<ignore>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+
+</que>
+</split>
+
+<frame>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+<i f="none"></i>
+</que>
+</split>
+
+</frame>
+
+<frame>
+
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+
+</frame>
+
+
+</ignore>
+
+
+
+

@@ -1,0 +1,96 @@
+<subsection For few Particles>
+
+
+<frame title="Does it actually Autoencode?">
+First try this for tiny graphs of about 4 particles
+<split>
+<que>
+<i f="history4" wmode=True>loss per epoch (4 nodes)</i>
+</que>
+<que>
+<i f="reloss" wmode=True>comparison of the loss to trivial reconstructors</i>
+</que>
+</split>
+
+</frame>
+
+<ignore>
+dont really have nice images for this
+<frame>
+
+<split>
+<que>
+<i f="none">a good reconstruction</i>
+</que>
+<que>
+<i f="none">a bad reconstruction</i>
+</que>
+</split>
+
+</frame>
+</ignore>
+
+<frame title="Can you classify with it?">
+
+<split>
+<que>
+<list>
+<e>Here compared to QCDorWhat</e>
+<e>not really great, but not that bad either</e>
+<e>and remember:only 4/6 particles were used</e>
+</list>
+</que>
+<que>
+<i f="lowcompare"></i>
+</que>
+</split>
+
+</frame>
+
+<ignore>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+
+</que>
+</split>
+
+<frame>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+<i f="none"></i>
+</que>
+</split>
+
+</frame>
+
+<frame>
+
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+
+</frame>
+
+
+</ignore>
+
+
+

@@ -1,0 +1,82 @@
+<section Anomalies and Physics>
+
+<frame>
+<i f="positron2.png"></i>
+</frame>
+<frame>
+<i f="positron3.png"></i>
+</frame>
+<frame>
+<block x="0" y="0.2">
+<i f="candersonp.jpg" wid="0.4" wmode="True"></i>
+</block>
+<block x="3" y="0.2">
+<i f="bcuriep.png" wid="0.8" wmode="True"></i>
+</block>
+<block x="6" y="0.2">
+<i f="cchaop.jpg" wid="0.4" wmode="True"></i>
+</block>
+<block x="8" y="0.2">
+<i f="skobelp.png" wid="0.4" wmode="True"></i>
+</block>
+
+
+
+
+
+<ignore><i f="candersonp.jpg" f2="bcuriep.png" f3="cchaop.jpg" f4="skobelp.png" wmode="False" wid="0.9"></i></ignore>
+\vspace{3cm}
+<list>
+<e>Detection of Antimatter</e>
+<e>Not extremely hard to detect, but deserved Nobel Prize</e>
+<e>Today:</e>
+<l2st>
+<e>fundamental building block of physics</e>
+<e>required to understand advanced chemistry/biology</e>
+<e>medical uses</e>
+</l2st>
+<e>Also Today: Anomalies are sorely needed in Physics</e>
+</list>
+
+</frame>
+
+<ignore>
+<i f="candersonp.jpg"></i>
+<i f="bcuriep.jpg"></i>
+<i f="cchaop.jpg"></i>
+<i f="skobelp.png"></i>
+
+
+</ignore>
+
+<frame>
+Instead of ~1000 Events/day->1 Petabyte/day
+<ignore><block x="5" y="1">
+<i f="positron.png" wmode="True" wid="0.4"></i>
+</block></ignore>
+<i f="lhc_event2.jpg" wmode="True" wid="1.0"></i>
+->require computers
+
+</frame>
+
+
+
+<section Jet Anomaly>
+%new physics at the lhc
+%introduce toptagging on this slide
+<frame title="Top Tagging">
+<split>
+<que>
+<list>
+<e>Looking at LHC jets (particle showers)</e>
+<e>Millions of jets, maybe some of them weird in some way</e>
+<e>But at most a few and in some unknown way</e>
+<e>So use ML to filter them out</e>
+<e>Usually tested by trying to find top jets in a qcd background</e>
+</list>
+</que>
+<que>
+<i f="xoneqcd.png" f2="xonetop.png" wmode="False" wid="0.8"></i>
+</que>
+</split>
+</frame>

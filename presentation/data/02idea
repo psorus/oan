@@ -1,0 +1,26 @@
+<section Graph Autoencoder>
+<frame>
+<split>
+<que>
+<list>
+<e><link w="https://arxiv.org/abs/1902.08570">ParticleNet</link></e>
+<l2st><e>supervised</e>
+<e>Graph Neuronal Networks</e></l2st>
+<e><link w="https://arxiv.org/abs/1808.08979">Qcd Or What?</link></e>
+<l2st><e>unsupervised</e>
+<e>Convolutional Networks</e></l2st>
+</list>
+</que>
+<que>
+<list>
+<e>Combine ideas from both</e>
+<e>Into a Graph Autoencoder</e>
+</list>
+</que>
+</split>
+
+
+
+</frame>
+
+

@@ -1,0 +1,13 @@
+<frame title="limits of c addition">
+<split>
+<que>
+<list>
+<e>only possible if every partial auc is bigger than 0.5</e>
+<e>assumes no correlation between the loss distributions</e>
+</list>
+</que>
+<que>
+<i f="trivialptscale">missing image/math:optimising trivial model with calculated zeroloss</i>
+</que>
+</split>
+</frame>

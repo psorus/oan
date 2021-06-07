@@ -1,0 +1,119 @@
+<subsection "Autoencoder">
+<frame>
+<split>
+<que>
+<list>
+<e>Now lets do the same with an autoencoder</e>
+<e>instead of calling #x# the input, and #y# the desired output, #(x,y)# are both input and output</e>
+<e>this means, the function is just an identity</e>
+<e>to force it to learn something, we add a compression in the middle of our architecture</e>
+</list>
+</que>
+<que>
+<i f="../../mmt/q/nnpics/rsimple_autoencoder.png"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+<list>
+<e>after training, we see that the autoencoder basically learned the same function as before (except for some numerics)</e>
+<e>but: we cannot just use the autoencoder to predict the #y# value for a given #x# anymore</e>
+<e>still there is the same information saved in the autoencoder defining the relation between #x# and #y#</e>
+</list>
+</que>
+<que>
+<i f="../../mmt/q/02/imgs/auto_encoder.pdf" wmode="True"></i>
+</que>
+</split>
+</frame>
+<frame>
+<split>
+<que>
+<list>
+<e>how to use this information?</e>
+<e>compare prediction to input (difference is loss)</e>
+<l2st>
+<e>if the #(x,y)# pair matches the function: loss is small</e>
+<e>if it does not match: the loss is big</e>
+</l2st>
+<e>so you can use the loss of an autoencoder to categorize different classes</e>
+<e>Used by QCDorWhat (arxiv 1808.08979) for unsupervised toptagging</e>
+
+</list>
+</que>
+<que>
+<i f="compare"></i>
+</que>
+</split>
+</frame>
+
+
+
+<frame>
+<split>
+<que>
+<list>
+<e>Set a cut somewhere</e>
+<e>everything above classified as signal</e>
+<e>everything below classified as background</e>
+<e>for each cut, measure error rates</e>
+<l2st>
+<e>true positive rate:fraction of signal classifications in signal</e>
+<e>false positive rate:fraction of signal classifications in background</e>
+</l2st>
+<e>measure network quality as #Eq(auc,integrate(tpr(fpr),(fpr,0,1)))#</e>
+</list>
+</que>
+<que>
+<i f="xrecqual.png" f2="nroc"></i>
+</que>
+
+</split>
+</frame>
+
+
+<ignore>
+<frame>
+<list>
+<e>Already used for Toptagging by QCDorWhat (arXiv:1808.08979)</e>
+<e>They try two different approaches</e>
+<l2st>
+<e>Image based</e>
+<e>Lola (Lorentz layer) based</e>
+</l2st>
+<e>This Paper is here used as Reference Points</e>
+<l2st>
+<e>worst Autoencoder</e>
+<e>best Image based one</e>
+<e>best Lola based one (which is there best Autoencoder)</e>
+</l2st>
+</list>
+</frame>
+</ignore>
+
+
+
+
+
+
+
+<ignore>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+
+</que>
+</split>
+
+</ignore>
+
+

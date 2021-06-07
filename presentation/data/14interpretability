@@ -1,0 +1,22 @@
+<section Interpretability>
+
+
+<frame title="Interpretability">
+
+<list>
+
+<e>By having an arbitrary number of output dimensions, you migth be able to find meaning in them</e>
+<e>Here looking at MNIST with 0 <-> 1 as normal case</e>
+<e>Does not already work well</e>
+
+
+</list>
+
+
+</frame>
+
+
+<frame>
+<i f="map" wmode="True" wid="0.9">
+</frame>
+

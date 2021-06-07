@@ -1,0 +1,33 @@
+<frame>
+
+<split>
+
+<que>
+
+<i f="kanomal.png" wmode="True" wid="1.0"></i>
+
+
+</que>
+<que>
+
+\begin{table}[]
+\begin{tabular}{lll}
+          & Autoencoder & OneOff  \\
+time      & 123s        & 22s      \\
+AUC       & 99.6\%      & 99.92\% \\
+#1/(1-AUC)# & 260         & 1290   
+\end{tabular}
+\end{table}
+
+
+Will be used for the rest of this Presentation
+
+</que>
+
+
+
+</split>
+
+<ignore>\source{keras.io/examples/timeseries/timeseries_anomaly_detection}</ignore>
+
+</frame>

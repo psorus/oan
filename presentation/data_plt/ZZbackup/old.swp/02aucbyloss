@@ -1,0 +1,7 @@
+<subsection auc by loss>
+<frame><i f="aucbyloss">loss against auc, for a couple of old networks</i></frame>
+<frame><i f="lbalinear">loss against auc, for a 4 node network</i></frame>
+<frame><i f="lbaexp">loss against auc, for a 6 node network</i></frame>
+
+
+

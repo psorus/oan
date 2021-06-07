@@ -1,0 +1,28 @@
+<section Whats next>
+<frame title="Whats next">
+
+<split>
+<que>
+
+<list>
+<e>More efficient algorithm</e>
+<e>Try out other kinds of hard to find anomalies</e>
+<e>Better method of combining partial anomaly scores</e>
+</list>
+
+</que>
+<que>
+
+<list>
+<e>Other algorithms</e>
+<l2st>
+<e>Autoencoder, GAN based</e>
+<e>classical ones (knn, isolation forest, svm)</e>
+</l2st>
+<e>Try to prevent Feature mixing for interpretability</e>
+<e>Ability to train supervised algorithms on unsupervised output</e>
+</list>
+
+</que>
+</split>
+</frame>

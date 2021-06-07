@@ -1,0 +1,24 @@
+<subsection Outlook>
+<repeat w="['none']">
+<frame title="Outlook" label="next_?i?">
+
+
+<split>
+<que wid="0.99">
+
+
+
+<list>
+
+<e>Grapa needs to become faster and more stable</e>
+<e>Make more nodes work not only as autoencoder but also as classifier</e>
+<e>You can use the same code blocks used for an autoencoder to write a graph gan, which you could use for example to generate events</e>
+
+</list>
+
+</que>
+</split>
+
+
+</frame>
+</repeat>

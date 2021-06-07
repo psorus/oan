@@ -1,0 +1,20 @@
+<frame title="How">
+
+<split>
+<que>
+<list>
+<e>Chance loss function</e>
+<e>From #Eq(loss,(f(x)-1)**2)#</e>
+<e>Too #(f_i(x)-1)*(f_j(x)-1)# (summed over #LessThan(i,j)#)</e>
+</list>
+
+</que>
+<que>
+
+
+</que>
+
+</split>
+
+
+</frame>

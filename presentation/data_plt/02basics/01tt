@@ -1,0 +1,82 @@
+<subsection Top Tagging>
+%new physics at the lhc
+%introduce toptagging on this slide
+<frame title="Top Tagging">
+<split>
+<que>
+<list>
+<e>Classify events into those that origin from a top quark, and those by other qcd particles</e>
+<e>to do this, use either calorimeter like images or 4-vectors</e>
+</list>
+</que>
+<que>
+<i f="xoneqcd.png" f2="xonetop.png" wmode="False" wid="0.8"></i>
+</que>
+</split>
+</frame>
+<frame title="Finding new Physics at the LHC">
+<list>
+<e>classical approach:</e>
+<l2st>
+<e>first build a theory (for example super symmetry)</e>
+<e>make predictions</e>
+<e>test them</e>
+</l2st>
+<e>not very effective in the last time</e>
+<e>so try using unsupervised algorithms to find 'weird' stuff</e>
+<e>these algorithm are tested quite well using top tagging since</e>
+<l2st>
+<e>the top quark was only discovered 1995, so before this, tops actually were 'weird'</e>
+<e>the top quark has a quite low cross section (about #1# top event for each #10# million collisions)</e>
+</l2st>
+</list>
+</frame>
+<frame>
+%slide to show the history of toptagging
+<split>
+<que>
+<list>
+<e>classically you use smart physics to differentiate them (arXiv:1806.01263)</e>
+<e>but then there were deep learning approaches (arXiv:1704.02124) which do this a bit better</e>
+<e>today even better using a fancy graph neuronal network (ParticleNet,arXiv:1902.08570)</e>
+</list>
+</que>
+<que>
+<i f="ttot"></i>
+</que>
+</split>
+</frame>
+
+
+<frame>
+<split>
+
+<que>
+Supervised
+<list>
+<e>Training given both the anomaly and the background events</e>
+<e>Much easier to do</e>
+<e>only able to find one specific anomaly</e>
+</list>
+</que>
+<que>
+Unsupervised
+<list>
+<e>Training only given background events</e>
+<e>Able to find any anomaly</e>
+<e>Used by QCDorWhat (arxiv 1808.08979) for unsupervised toptagging</e>
+</list>
+</que>
+
+</split>
+
+</frame>
+
+
+
+
+
+
+
+<ignore>
+</ignore>

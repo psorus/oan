@@ -1,0 +1,26 @@
+<repeat w="['simpledraw1583','drscale','dsscale']">
+<frame title="Scaling" label="scale2_?i?">
+
+
+<split>
+<que wid="0.3">
+
+<list>
+
+<e>Our modifications seem to help adding more nodes</e>
+<e>This takes training times O(days)</e>
+<e>Reconstruction good, classification not</e>
+
+</list>
+
+</que>
+<que wid="0.68">
+
+<i f="???" wid="0.95" wmode="True"></i>
+
+</que>
+</split>
+
+
+</frame>
+</repeat>

@@ -1,0 +1,31 @@
+<section Results>
+
+
+<repeat w="['crosssep']">
+<frame title="Results" label="data_?i?">
+
+
+<split>
+<que wid="0.3">
+
+<list>
+
+<e>The more blue the better, and if a pixel is red (dot) it is not detectable</e>
+<e>Quality is not final, but</e>
+<e>here do 48(52)/56 comparisons work</e>
+
+</list>
+
+</que>
+<que wid="0.68">
+
+<i f="???" wid="0.95" wmode="True"></i>
+
+</que>
+</split>
+
+
+</frame>
+</repeat>
+
+

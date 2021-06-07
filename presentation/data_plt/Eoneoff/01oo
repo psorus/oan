@@ -1,0 +1,29 @@
+<subsection OneOff networks>
+<repeat w="['toosephist']">
+<frame title="OneOff Networks" label="oo_?i?">
+
+
+<split>
+<que wid="0.3">
+
+<list>
+
+<e>Train a network to output a constant</e>
+<e>#Eq(loss,(f(x)-1)**2)#</e>
+<e>Anomalous data usually does not reproduce the same constant</e>
+
+</list>
+
+</que>
+<que wid="0.68">
+
+<i f="???" wid="0.85" wmode="True"></i>
+
+</que>
+</split>
+
+
+
+
+</frame>
+</repeat>

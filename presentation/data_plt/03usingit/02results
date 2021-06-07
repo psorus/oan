@@ -1,0 +1,30 @@
+<section Results>
+<repeat w="['simpledraw200','rec200','roc200']">
+<frame title="Results" label="results_?i?">
+
+<split>
+<que wid="0.3">
+<list>
+<e>Here first for only a few nodes</e>
+<e>Reconstruction good</e>
+<e>Classification great</e>
+<e>For comparison</e>
+<l2st>
+<e>QCDorWhat: ~#0.93# (similar data)</e>
+<e>Thorben Finke: #0.908# (same data)</e>
+</l2st>
+</list>
+</que>
+<que wid="0.68">
+
+<i f="???" wmode="True" wid="0.95"></i>
+
+</que>
+
+
+
+</split>
+
+</frame>
+
+</repeat>

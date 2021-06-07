@@ -1,0 +1,9 @@
+<subsection Normalization>
+<frame title="Normalization">
+
+##Eq(y,x-mean(x))##
+##Eq(z,y-mean(abs(y)))##
+##Eq(n,z/(max(abs(y))+0.001))##
+##Eq(n,2*z/(max(abs(y))+mean(abs(y))+0.001))##
+
+</frame>

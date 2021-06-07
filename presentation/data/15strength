@@ -1,0 +1,23 @@
+<section Strength>
+
+
+<frame title="Strength">
+
+<list>
+
+<e>Not ignoring (weak) features leads to better performance</e>
+<e>Also: this is able to combat the curse of dimensionality</e>
+<e>Here looking at one layer mnist anomaly detection (7 as normal class)</e>
+<e>generally really bad (#Eq(AUC,0.65)#)</e>
+<e>for comparison:2007.06963 reaches #0.982#</e>
+
+</list>
+
+
+</frame>
+
+
+<frame>
+<i f="dimensional" wmode="True" wid="0.9">
+</frame>
+

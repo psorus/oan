@@ -1,0 +1,58 @@
+<repeat w="['none']">
+<frame title="Setup" label="setup2_?i?">
+
+
+<split>
+<que wid="0.5">
+
+<list>
+
+<e>Preproccessing</e>
+<l2st>
+<e>Sort by the transverse momentum</e>
+<e>(Creative) normalization Layer</e>
+</l2st>
+
+<e>Encoder</e>
+<l2st>
+<e>BatchNormalization Layer</e>
+<e>Learn a graph</e>
+<e>Run graph updates</e>
+<e>4 nodes -> 1 node</e>
+</l2st>
+
+<e>Decoder</e>
+<l2st>
+<e>1 node -> 4 nodes </e>
+<e>Run graph updates</e>
+<e>Sort again by the transverse momentum</e>
+</l2st>
+
+
+</list>
+
+</que>
+<que wid="0.48">
+
+<list>
+
+<e>OneOff</e>
+<l2st>
+<e>After the Encoder</e>
+<e>7 Dense Layers relu activated</e>
+</l2st>
+
+<e>50k jets</e>
+<e>Learning rate of #0.003#</e>
+<e>Batch size of 100</e>
+<e>Train until the loss does not improve for 100 Epochs (but at least for 500 Epochs)</e>
+<e>Compression size of 9</e>
+
+</list>
+
+</que>
+</split>
+
+
+</frame>
+</repeat>

@@ -1,0 +1,28 @@
+<repeat w="['none']">
+<frame title="Result" label="result2_?i?">
+
+
+<split>
+<que wid="0.3">
+
+<list>
+
+<e>Networks invertible</e>
+<e>AUC scores of #0.549# and #0.377#</e>
+
+
+
+
+</list>
+
+</que>
+<que wid="0.68">
+
+<i f="drtop2tag" wmode="True"></i>
+
+</que>
+</split>
+
+
+</frame>
+</repeat>

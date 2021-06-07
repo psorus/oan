@@ -1,0 +1,16 @@
+<subsection Graphs over Dense>
+
+<frame>
+Graph networks respect Graph Symmetries
+<list>
+<e>arbitrary Rotations</e>
+<e>Mirroring</e>
+<e>Scaling</e>
+<e>Shifting</e>
+<e>Tremors</e>
+
+</list>
+
+</frame>
+<frame><i f="densescale">Scaling comparison with the Dense Network</i></frame>
+

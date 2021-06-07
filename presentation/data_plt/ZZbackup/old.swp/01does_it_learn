@@ -1,0 +1,6 @@
+<subsection Does it actually learn something?>
+<frame><i f="history4">loss per epoch of a 4 node network</i></frame>
+<frame><i f="batchhist4">loss in epoch of a 4 node network</i></frame>
+
+
+

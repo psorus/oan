@@ -1,0 +1,53 @@
+<subsection C addition>
+
+<frame>
+<split>
+<que>
+<list>
+<e>now lets add them together</e>
+<e>but also add a multiplicative constant #c# to one of them</e>
+<e>##<h>Eq(d,d_1+c*d_2)##</e>
+<e>depending on #c# the auc of the addition chances</e>
+</list>
+</que>
+<que>
+<i f="adda"></i>
+</que>
+</split>
+</frame>
+<frame>
+
+<split>
+<que>
+<list>
+<e>There is an optimum value of c</e>
+<e>and if you use a value of c that is way to large, it can actually hurt your auc</e>
+<e>so assume: #Eq(c,1)#(unweighted addition) is a #c# that is way to big for toptagging</e>
+<e>so lets calculate the perfect c for a given distribution</e>
+</list>
+</que>
+<que>
+<i f="abc" wmode=True>auc as function of c</i>
+</que>
+</split>
+
+</frame>
+
+%show animation here
+
+<frame>
+##Eq(mu_1B,0),Eq(mu_2B,0),Eq(mu_1S,1),Eq(mu_2S,c*alpha)##
+##Eq(sigma_iB,sigma_iS),Eq(sigma_1,s_1),Eq(sigma_2,alpha*c*s_2)##
+##Eq(mu_B,0),Eq(mu_S,1+c*alpha),Eq(sigma,sqrt(sigma_1**2+sigma_2**2))##
+fix the scale by demanding #Eq(mu_S,1)#, then maximum auc means minimum #sigma# (or #(sigma/s1)**2#)
+##Eq((sigma/s1)**2,(1+(s_2/s_1)**2*alpha**2*c**2)/(1+alpha*c))##
+</frame>
+<frame>
+##Eq(d/dc * (sigma/s1)**2,0)##
+##Eq((1/(1+alpha*c)**3)*2*y*(c*alpha*(s_2/s_1)**2-1),0)##
+##Eq(c,1/(alpha*(s_2/s_1)**2))##
+##Eq(alpha,1.0),Eq(s_2,0.75),Eq(s_1,0.5)##
+compare to numerics:
+##Eq(c,0.4444),Eq(c_n,0.4436),Eq(sigma_c_n,0.0024)##
+
+</frame>

@@ -1,0 +1,32 @@
+<section Generality>
+
+
+<frame title="Generality">
+
+<list>
+
+<e>Less important features can go hidden</e>
+<e>Also sometimes 2 errors can cancel each other out</e>
+<e>By having multiple outputs, you can reduce these effects</e>
+<e>Here I look at a different project, focussing on recurrent anomaly detection</e>
+<e>Same dataset as the keras example, but with another more complicated anomaly</e>
+
+</list>
+
+
+</frame>
+
+
+<frame>
+<i f="1d3" wmode="True" wid="0.9">
+</frame>
+<frame>
+<i f="3d3" wmode="True" wid="0.9">
+</frame>
+<frame>
+<i f="1d4" wmode="True" wid="0.9">
+</frame>
+<frame>
+<i f="3d4" wmode="True" wid="0.9">
+</frame>
+

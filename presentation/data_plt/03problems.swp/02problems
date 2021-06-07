@@ -1,0 +1,90 @@
+<subsection Scaling>
+<frame>
+
+<split>
+<que>
+<list>
+<e>Now lets increase the graph size(gs)</e>
+<e>plot auc against it</e>
+<e>compare to QCDorWhat results</e>
+</list>
+</que>
+<que>
+<i f="lowscale"></i>
+</que>
+</split>
+
+</frame>
+<frame>
+<i f="trivscale"></i>
+</frame>
+<frame>
+<i f="compscale"></i>
+</frame>
+<frame>
+<i f="compscale_zoom"></i>
+</frame>
+<frame>
+<split>
+<que w="0.4">
+<list>
+<e>Now instead of training on network with #4*n# nodes, train #n# networks on #4# nodes each and combine them into one #4*n# network</e>
+<e>if the network would be supervised, this would hurt, since there is no interaction between particles possible</e>
+<e>but here it actually helps</e>
+</list>
+</que>
+<que w="0.58">
+<i f="splitscale"></i>
+</que>
+</split>
+</frame>
+
+
+
+<ignore>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+
+</que>
+</split>
+
+<frame>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+<i f="none"></i>
+</que>
+</split>
+
+</frame>
+
+<frame>
+
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+
+</frame>
+
+
+</ignore>
+
+
+

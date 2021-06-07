@@ -1,0 +1,50 @@
+<section Conclusion>
+<subsection other Datasets>
+<repeat w="['none']">
+<frame title="Other datasets" label="odata">
+
+
+<list>
+
+<e>Until now: we can only find top(qcd) jets</e>
+<e>But information about the type of anomaly can leak into your network setup</e>
+<e>So we need to test other anomalies</e>
+
+</list>
+
+
+
+</frame>
+</repeat>
+
+
+
+
+<repeat w="['crossroc','crosssep']">
+<frame title="Other datasets" label="data_?i?">
+
+
+<split>
+<que wid="0.3">
+
+<list>
+
+<e>The more blue the better, and if a pixel is red (dot) it is not detectable</e>
+<e>Quality is not final</e>
+<e>52/56 comparisons are more anomalous, while a normal ae would be neirly random</e>
+
+</list>
+
+</que>
+<que wid="0.68">
+
+<i f="???" wid="0.95" wmode="True"></i>
+
+</que>
+</split>
+
+
+</frame>
+</repeat>
+
+

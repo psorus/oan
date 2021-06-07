@@ -1,0 +1,25 @@
+<subsection Problems when scaling>
+<repeat w="['trivscale','simptriv0.0','simptriv3.0']">
+<frame title="Scaling" label="scale_?i?">
+
+
+<split>
+<que wid="0.3">
+<list>
+<e>Using more than 4 particles is not so easy</e>
+<l2st>
+<e>Training time increases</e>
+<e>Numerical fails are probable</e>
+<e>Classification is generally worse</e>
+</l2st>
+<e>So combine parts intelligently (#(1/loss)**3#)</e>
+</list>
+</que>
+<que wid="0.68">
+<i f="???" wmode="True" wid="0.9"></i>
+</que>
+</split>
+
+
+</frame>
+</repeat>

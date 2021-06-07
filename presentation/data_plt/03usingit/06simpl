@@ -1,0 +1,51 @@
+<subsection Problems by triviality>
+<frame title="Simplicity" label="simpl_0">
+
+<split>
+
+<que wid="0.3">
+<list>
+
+<e>Top jets are generally wider than qcd ones</e>
+<e>This you can use to seperate then quite well</e>
+<e>Autoencoder often focus on this</e>
+
+</list>
+</que>
+<que wid="0.68">
+
+<i f="meanangle4" wid="0.6" wmode="True"></i>
+
+</que>
+
+
+</split>
+
+
+
+</frame>
+<frame title="Simplicity" label="simpl_1">
+
+<split>
+
+<que wid="0.3">
+<list>
+
+<e>Top jets are generally wider than qcd ones</e>
+<e>This you can use to seperate then quite well</e>
+<e>Autoencoder often focus on this</e>
+
+</list>
+</que>
+<que wid="0.68">
+
+<i f="simponez" wid="0.99" wmode="True"></i>
+
+</que>
+
+
+</split>
+
+
+
+</frame>
