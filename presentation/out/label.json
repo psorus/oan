@@ -185,6 +185,15 @@
   {
     "typ": "img",
     "files": [
+      "../imgs/meanangle3"
+    ],
+    "label": "meanangle3",
+    "caption": "",
+    "where": "../oan/presentation//data/05results"
+  },
+  {
+    "typ": "img",
+    "files": [
       "../imgs/crossroc"
     ],
     "label": "crossroc",
@@ -292,6 +301,15 @@
   {
     "typ": "img",
     "files": [
+      "../imgs/oneline"
+    ],
+    "label": "oneline",
+    "caption": "",
+    "where": "../oan/presentation//data/14interpretability"
+  },
+  {
+    "typ": "img",
+    "files": [
       "../imgs/map"
     ],
     "label": "map",
@@ -315,10 +333,69 @@
     "where": "../oan/presentation//data/15strength"
   },
   {
+    "typ": "img",
+    "files": [
+      "../imgs/cdimensional"
+    ],
+    "label": "cdimensional",
+    "caption": "",
+    "where": "../oan/presentation//data/15strength"
+  },
+  {
     "typ": "section",
     "title": "Whats next",
     "label": "Whats next",
     "file": "../oan/presentation//data/16next",
     "issec": true
+  },
+  {
+    "typ": "section",
+    "title": "Backup",
+    "label": "Backup",
+    "file": "../oan/presentation//data/30backup/00section",
+    "issec": true
+  },
+  {
+    "typ": "subsection",
+    "title": "Backup Graph Autoencoder",
+    "label": "Backup Graph Autoencoder",
+    "file": "../oan/presentation//data/30backup/05gae",
+    "issec": true
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/xdenseencode.png"
+    ],
+    "label": "xdenseencodepng",
+    "caption": "",
+    "where": "../oan/presentation//data/30backup/05gae"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/xgraphencode.png"
+    ],
+    "label": "xgraphencodepng",
+    "caption": "",
+    "where": "../oan/presentation//data/30backup/05gae"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/abiaa"
+    ],
+    "label": "abiaa",
+    "caption": "",
+    "where": "../oan/presentation//data/30backup/05gae"
+  },
+  {
+    "typ": "img",
+    "files": [
+      "../imgs/abibb"
+    ],
+    "label": "abibb",
+    "caption": "",
+    "where": "../oan/presentation//data/30backup/05gae"
   }
 ]

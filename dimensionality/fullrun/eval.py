@@ -47,6 +47,7 @@ s=[np.std(q[xx])/np.sqrt(len(q[xx])) for xx in x]
 x=[int(zw) for zw in x]
 
 plt.errorbar(x,y,fmt="o",yerr=s)
+np.savez_compressed("result",x=x,y=y,s=s)
 
 plt.xlabel("dimension")
 plt.ylabel("AUC")

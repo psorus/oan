@@ -1,5 +1,21 @@
 <section Results>
 
+<frame title="Results">
+<split>
+<que>
+<list>
+
+<e>Why? Trivial difference between the jets we look at</e>
+<e>Width is measured by bad autoencoders</e>
+<e>Ae does the same as the radius but worse</e>
+
+</list>
+</que>
+<que>
+<i f="meanangle3" wmode="True" wid="0.90"></i>
+</que>
+</split>
+</frame>
 
 <repeat w="['crossroc']">
 <frame title="Results" label="data_?i?">

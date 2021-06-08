@@ -505,6 +505,36 @@ Qcd Or What?
 %{{{for_Results}}}
 
 
+\begin{frame}[label=Results]
+\frametitle{Results}
+\begin{columns}[c] % align columns
+\begin{column}{0.48\textwidth}%.48
+\begin{itemize}
+
+    \item Why? Trivial difference between the jets we look at
+
+    \item Width is measured by bad autoencoders
+
+    \item Ae does the same as the radius but worse
+
+
+\end{itemize}
+\end{column}%
+\hfill%
+\begin{column}{0.48\textwidth}%.48
+\begin{figure}[H] 
+  \centering
+\includegraphics[width=0.90\textwidth]{../imgs/meanangle3}
+\label{fig:meanangle3}
+  \end{figure}
+
+
+\end{column}%
+\hfill%
+\end{columns}
+
+\end{frame}
+
 
 \begin{frame}[label=data_0]
 \frametitle{Results}
@@ -667,6 +697,10 @@ Will be used for the rest of this Presentation
 \begin{column}{0.48\textwidth}%.48
 \begin{itemize}
 
+    \item Usually nd input $\Rightarrow$ 1d anomaly score
+
+    \item Why not nd input $\Rightarrow$ md anomaly score
+
     \item Retraining an anomaly detection algorithm provides about the same result
 
     \item Can you change this?
@@ -684,7 +718,7 @@ Will be used for the rest of this Presentation
 
     \item Create a general Framework for orthogonal anomaly detection
 
-    \item Can improve Generality, Interpretability and general Strength of anomaly detection
+    \item Migth improve Generality, Interpretability and general Strength of anomaly detection
 
 
 \end{itemize}
@@ -709,14 +743,18 @@ Will be used for the rest of this Presentation
 
     \item From $loss = \left(f{\left(x \right)} - 1\right)^{2}$
 
-    \item Too $\left(\operatorname{f_{i}}{\left(x \right)} - 1\right) \cdot \left(\operatorname{f_{j}}{\left(x \right)} - 1\right)$ (summed over $i \leq j$)
+    \item Too $\sum_{i<j} \lvert \left(\operatorname{f_{i}}{\left(x \right)} - 1\right) \cdot \left(\operatorname{f_{j}}{\left(x \right)} - 1\right) \rvert$
 
 
 \end{itemize}
 \end{column}%
 \hfill%
 \begin{column}{0.48\textwidth}%.48
-
+$ \begin{bmatrix}
+1 & 0.032 & -0.015 \\
+0.032 & 1 & -0.14 \\
+-0.015 & -0.14 & 1 
+\end{bmatrix}  $
 \end{column}%
 \hfill%
 \end{columns}
@@ -808,16 +846,23 @@ Will be used for the rest of this Presentation
 
 \begin{frame}[label=Interpretability]
 \frametitle{Interpretability}
+\vspace{1cm}
 \begin{itemize}
 
     \item By having an arbitrary number of output dimensions, you migth be able to find meaning in them
 
-    \item Here looking at MNIST with 0 <$\Rightarrow$ 1 as normal case
-
-    \item Does not already work well
+    \item Here looking at MNIST with 0 1 as normal case
 
 
 \end{itemize}
+
+\begin{figure}[H] 
+  \centering
+\includegraphics[width=0.8\textwidth]{../imgs/oneline}
+\label{fig:oneline}
+  \end{figure}
+
+
 \end{frame}
 
 
@@ -875,6 +920,17 @@ Will be used for the rest of this Presentation
 \end{frame}
 
 
+\begin{frame}[label=]
+\frametitle{}
+\begin{figure}[H] 
+  \centering
+\includegraphics[width=0.9\textwidth]{../imgs/cdimensional}
+\label{fig:cdimensional}
+  \end{figure}
+
+
+\end{frame}
+
 
 
 %from file ../oan/presentation//data/16next
@@ -931,6 +987,177 @@ Will be used for the rest of this Presentation
 \Huge Thank You!
 \end{center}
 \end{frame}
+
+
+
+%from folder ../oan/presentation//data/30backup
+
+
+%from file ../oan/presentation//data/30backup/00section
+\newpage
+\appendix
+%\addcontentsline{toc}{section}{Appendices}
+%\section*{Appendices}
+
+\newpage
+\section{Backup}\label{sec:Backup}
+%{{{for_Backup}}}
+
+
+
+%from file ../oan/presentation//data/30backup/05gae
+\subsection{Backup Graph Autoencoder }\label{sec:Backup Graph Autoencoder}
+%{{{for_Backup Graph Autoencoder}}}
+
+\begin{frame}[label=]
+\frametitle{}
+\begin{itemize}
+
+    \item So here ParticleNet + QCDorWhat
+
+    \item =Graph Autoencoder
+
+    \item To do this, require:
+
+\begin{itemize}
+
+    \item An update step
+
+\begin{itemize}
+
+    \item already described
+
+
+\end{itemize}
+
+    \item something to reduce the number of nodes
+
+    \item something to increase the number of nodes afterwards again
+
+
+\end{itemize}
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label=Going from a big graph to a small graph]
+\frametitle{Going from a big graph to a small graph}
+\begin{itemize}
+
+    \item similar to a Pooling operation for a convolutional network
+
+    \item Seems simple enough but if you look at the literature
+
+\begin{itemize}
+
+    \item slow...and the benefits...are less clear (arXiv:1907.09000)
+
+    \item advance...has lagged behind (arXiv:1907.00481)
+
+    \item one cannot simply pool ... (arXiv:1806.08804)
+
+
+\end{itemize}
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label=]
+\frametitle{}
+\begin{columns}[c] % align columns
+\begin{column}{0.48\textwidth}%.48
+\begin{figure}[H] 
+  \centering
+\includegraphics[height=0.9\textheight]{../imgs/xdenseencode.png}
+\label{fig:xdenseencodepng}
+  \end{figure}
+
+
+\end{column}%
+\hfill%
+\begin{column}{0.48\textwidth}%.48
+\begin{figure}[H] 
+  \centering
+\includegraphics[height=0.9\textheight]{../imgs/xgraphencode.png}
+\label{fig:xgraphencodepng}
+  \end{figure}
+
+
+\end{column}%
+\hfill%
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[label=from a big graph to a small graph]
+\frametitle{from a big graph to a small graph}
+\begin{columns}[c] % align columns
+\begin{column}{0.48\textwidth}%.48
+\begin{itemize}
+
+    \item project the graph on a learnable axis
+
+    \item combine neigbour nodes on this axis
+
+    \item relearn the graph or use a graph combination rule
+
+
+\end{itemize}
+\end{column}%
+\hfill%
+\begin{column}{0.48\textwidth}%.48
+\begin{figure}[H] 
+  \centering
+\includegraphics[width=0.9\textwidth]{../imgs/abiaa}
+\label{fig:abiaa}
+  \end{figure}
+
+
+\end{column}%
+\hfill%
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[label=from a small graph to a big graph]
+\frametitle{from a small graph to a big graph}
+\begin{columns}[c] % align columns
+\begin{column}{0.48\textwidth}%.48
+\begin{itemize}
+
+    \item let each node grow into a learnable graph
+
+    \item combine the new graphs with the existing one
+
+
+\end{itemize}
+\end{column}%
+\hfill%
+\begin{column}{0.48\textwidth}%.48
+\begin{figure}[H] 
+  \centering
+\includegraphics[width=0.9\textwidth]{../imgs/abibb}
+\label{fig:abibb}
+  \end{figure}
+
+
+\end{column}%
+\hfill%
+\end{columns}
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

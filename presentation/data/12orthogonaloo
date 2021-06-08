@@ -5,12 +5,18 @@
 <list>
 <e>Chance loss function</e>
 <e>From #Eq(loss,(f(x)-1)**2)#</e>
-<e>Too #(f_i(x)-1)*(f_j(x)-1)# (summed over #LessThan(i,j)#)</e>
+<e>Too $\sum_{i<j} \lvert \left(\operatorname{f_{i}}{\left(x \right)} - 1\right) \cdot \left(\operatorname{f_{j}}{\left(x \right)} - 1\right) \rvert$
+</e>
 </list>
 
 </que>
 <que>
 
+$ \begin{bmatrix}
+1 & 0.032 & -0.015 \\
+0.032 & 1 & -0.14 \\
+-0.015 & -0.14 & 1 
+\end{bmatrix}  $
 
 </que>
 

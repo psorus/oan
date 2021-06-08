@@ -3,6 +3,8 @@
 <split>
 <que>
 <list>
+<e>Usually nd input -> 1d anomaly score</e>
+<e>Why not nd input -> md anomaly score</e>
 <e>Retraining an anomaly detection algorithm provides about the same result</e>
 <e>Can you change this?</e>
 <e>And so create an multi-dimensional output anomaly detection algorithm</e>
@@ -12,7 +14,7 @@
 <que>
 <list>
 <e>Create a general Framework for orthogonal anomaly detection</e>
-<e>Can improve Generality, Interpretability and general Strength of anomaly detection</e>
+<e>Migth improve Generality, Interpretability and general Strength of anomaly detection</e>
 </list>
 </que>
 </split>

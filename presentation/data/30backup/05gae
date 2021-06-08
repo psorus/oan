@@ -1,0 +1,149 @@
+<subsection Backup Graph Autoencoder>
+<frame>
+
+<list>
+<e>So here ParticleNet + QCDorWhat</e>
+<e>=Graph Autoencoder</e>
+<e>To do this, require:</e>
+<l2st>
+<e>An update step</e>
+<l3st><e>already described</e></l3st>
+<ignore>
+<e>Something to make a list of 4 vectors into a graph</e>
+<l3st>
+<e>use a topK algorithm</e>
+<e>connect a 4 vector with its K nearest neigbours</e>
+</l3st>
+</ignore>
+<e>something to reduce the number of nodes</e>
+<e>something to increase the number of nodes afterwards again</e>
+</l2st>
+</list>
+
+</frame>
+<frame title="Going from a big graph to a small graph">
+<list>
+<e>similar to a Pooling operation for a convolutional network</e>
+<e>Seems simple enough but if you look at the literature</e>
+<l2st>
+<e>slow...and the benefits...are less clear (arXiv:1907.09000)</e>
+<e>advance...has lagged behind (arXiv:1907.00481)</e>
+<e>one cannot simply pool ... (arXiv:1806.08804)</e>
+</l2st>
+</list>
+
+</frame>
+<frame>
+<split>
+<que>
+<i f="xdenseencode.png"/>
+</que>
+<que>
+<i f="xgraphencode.png"/>
+</que>
+</split>
+<ignore>
+<i f="xdenseencode.png" f2="xgraphencode.png"></i>
+</ignore>
+</frame>
+<frame title="from a big graph to a small graph">
+
+<split>
+<que>
+<list>
+<e>project the graph on a learnable axis</e>
+<e>combine neigbour nodes on this axis</e>
+<e>relearn the graph or use a graph combination rule</e>
+</list>
+</que>
+<que>
+<i f="abiaa" wmode=True></i>
+<ignore>maybe instead of multiple images below each other doo this on multiple pages</ignore>
+</que>
+</split>
+
+</frame>
+<frame title="from a small graph to a big graph">
+
+<split>
+<que>
+<list>
+<e>let each node grow into a learnable graph</e>
+<e>combine the new graphs with the existing one</e>
+</list>
+</que>
+<que>
+<i f="abibb" wmode=True></i>
+</que>
+</split>
+
+</frame>
+
+<ignore>
+
+<frame><i f="../../mmeet2/imgs/00.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/01.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/02.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/03.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/04.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/05.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/06.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/07.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/08.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/06.pdf"/></frame>
+<frame><i f="../../mmeet2/imgs/01.pdf"/></frame>
+
+</ignore>
+
+
+
+
+
+
+<ignore>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+
+</que>
+</split>
+
+<frame>
+
+<split>
+<que>
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+</que>
+<que>
+<i f="none"></i>
+</que>
+</split>
+
+</frame>
+
+<frame>
+
+<list>
+<e></e>
+<e></e>
+<e></e>
+</list>
+
+</frame>
+
+
+</ignore>
+
+
+

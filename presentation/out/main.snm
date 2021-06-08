@@ -22,38 +22,55 @@
 \beamer@slide {sec:Graph Autoencoder}{11}
 \beamer@slide {fig:netresc}{11}
 \beamer@slide {sec:Results}{12}
-\beamer@slide {data_0<1>}{12}
-\beamer@slide {data_0}{12}
-\beamer@slide {fig:crossroc}{12}
-\beamer@slide {sec:OneOff networks}{13}
-\beamer@slide {oo_0<1>}{13}
-\beamer@slide {oo_0}{13}
-\beamer@slide {fig:toosephist}{13}
-\beamer@slide {sec:Results}{14}
-\beamer@slide {data_0<1>}{14}
-\beamer@slide {data_0}{14}
-\beamer@slide {fig:crosssep}{14}
-\beamer@slide {fig:kanomalpng}{15}
-\beamer@slide {sec:orthogonal anomaly detection}{16}
-\beamer@slide {Orthogonal Anomaly Detection<1>}{16}
-\beamer@slide {Orthogonal Anomaly Detection}{16}
-\beamer@slide {How<1>}{17}
-\beamer@slide {How}{17}
-\beamer@slide {sec:Generality}{18}
-\beamer@slide {Generality<1>}{18}
-\beamer@slide {Generality}{18}
-\beamer@slide {fig:1d3}{19}
-\beamer@slide {fig:3d3}{20}
-\beamer@slide {fig:1d4}{21}
-\beamer@slide {fig:3d4}{22}
-\beamer@slide {sec:Interpretability}{23}
-\beamer@slide {Interpretability<1>}{23}
-\beamer@slide {Interpretability}{23}
-\beamer@slide {fig:map}{24}
-\beamer@slide {sec:Strength}{25}
-\beamer@slide {Strength<1>}{25}
-\beamer@slide {Strength}{25}
-\beamer@slide {fig:dimensional}{26}
-\beamer@slide {sec:Whats next}{27}
-\beamer@slide {Whats next<1>}{27}
-\beamer@slide {Whats next}{27}
+\beamer@slide {Results<1>}{12}
+\beamer@slide {Results}{12}
+\beamer@slide {fig:meanangle3}{12}
+\beamer@slide {data_0<1>}{13}
+\beamer@slide {data_0}{13}
+\beamer@slide {fig:crossroc}{13}
+\beamer@slide {sec:OneOff networks}{14}
+\beamer@slide {oo_0<1>}{14}
+\beamer@slide {oo_0}{14}
+\beamer@slide {fig:toosephist}{14}
+\beamer@slide {sec:Results}{15}
+\beamer@slide {data_0<1>}{15}
+\beamer@slide {data_0}{15}
+\beamer@slide {fig:crosssep}{15}
+\beamer@slide {fig:kanomalpng}{16}
+\beamer@slide {sec:orthogonal anomaly detection}{17}
+\beamer@slide {Orthogonal Anomaly Detection<1>}{17}
+\beamer@slide {Orthogonal Anomaly Detection}{17}
+\beamer@slide {How<1>}{18}
+\beamer@slide {How}{18}
+\beamer@slide {sec:Generality}{19}
+\beamer@slide {Generality<1>}{19}
+\beamer@slide {Generality}{19}
+\beamer@slide {fig:1d3}{20}
+\beamer@slide {fig:3d3}{21}
+\beamer@slide {fig:1d4}{22}
+\beamer@slide {fig:3d4}{23}
+\beamer@slide {sec:Interpretability}{24}
+\beamer@slide {Interpretability<1>}{24}
+\beamer@slide {Interpretability}{24}
+\beamer@slide {fig:oneline}{24}
+\beamer@slide {fig:map}{25}
+\beamer@slide {sec:Strength}{26}
+\beamer@slide {Strength<1>}{26}
+\beamer@slide {Strength}{26}
+\beamer@slide {fig:dimensional}{27}
+\beamer@slide {fig:cdimensional}{28}
+\beamer@slide {sec:Whats next}{29}
+\beamer@slide {Whats next<1>}{29}
+\beamer@slide {Whats next}{29}
+\beamer@slide {sec:Backup}{31}
+\beamer@slide {sec:Backup Graph Autoencoder}{31}
+\beamer@slide {Going from a big graph to a small graph<1>}{32}
+\beamer@slide {Going from a big graph to a small graph}{32}
+\beamer@slide {fig:xdenseencodepng}{33}
+\beamer@slide {fig:xgraphencodepng}{33}
+\beamer@slide {from a big graph to a small graph<1>}{34}
+\beamer@slide {from a big graph to a small graph}{34}
+\beamer@slide {fig:abiaa}{34}
+\beamer@slide {from a small graph to a big graph<1>}{35}
+\beamer@slide {from a small graph to a big graph}{35}
+\beamer@slide {fig:abibb}{35}
